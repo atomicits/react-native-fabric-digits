@@ -1,3 +1,5 @@
+'use strict';
+
 var NativeModules = require("react-native").NativeModules;
 var DigitsLoginButton = require('./DigitsLoginButton');
 var DigitsLogoutButton = require('./DigitsLogoutButton');
