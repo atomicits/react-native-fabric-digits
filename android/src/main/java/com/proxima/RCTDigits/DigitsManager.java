@@ -166,7 +166,7 @@ public class DigitsManager extends ReactContextBaseJavaModule implements Lifecyc
             promise.reject(digitsException.toString());
             clearStuff();
         }
-        // clearStuff() should not be called here
+        //Remember that clearStuff() should not be called here
         //else {
             //promise.reject("Authentification failed without exception.");
         //}
